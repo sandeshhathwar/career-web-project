@@ -37,7 +37,7 @@ public class LoginController {
 
 		if (null != user1) {
 
-			return new ModelAndView(new RedirectView("details"));
+			return new ModelAndView("career");
 			
 		}
 

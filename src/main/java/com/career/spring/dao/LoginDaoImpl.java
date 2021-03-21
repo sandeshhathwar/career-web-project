@@ -24,7 +24,7 @@ public class LoginDaoImpl implements LoginDao {
 	  JdbcTemplate jdbcTemplate;
 
 	  public int register(Logindb user) {
-	    String sql = "insert into logindb values(?,?,?)";
+	    String sql = "insert into logindb values(?,?,?,?)";
 
 	    return jdbcTemplate.update(sql, new Object[] { user.getName(), user.getEmail(), user.getPassword()});
 	  }
