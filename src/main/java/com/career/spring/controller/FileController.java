@@ -42,7 +42,8 @@ public class FileController {
         if (result.hasErrors()) {
             returnVal = "file";
         } else {            
-            MultipartFile multipartFile = file.getFile();
+            @SuppressWarnings("unused")
+			MultipartFile multipartFile = file.getFile();
         }
         return returnVal;
     }

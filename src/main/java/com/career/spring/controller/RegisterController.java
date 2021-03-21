@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
+import org.springframework.web.servlet.view.RedirectView;
 
 import com.career.spring.model.Logindb;
 import com.career.spring.services.LoginService;
@@ -32,6 +33,6 @@ public class RegisterController {
 
 	    userService.register(user);
 
-	    return new ModelAndView("welcome", "name", user.getName());
+	    return new ModelAndView(new RedirectView("details"));
 	  }
 }

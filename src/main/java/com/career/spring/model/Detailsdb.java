@@ -1,7 +1,5 @@
 package com.career.spring.model;
 
-import java.math.BigInteger;
-
 public class Detailsdb {
 	private String firstName;
 	private String middleName;

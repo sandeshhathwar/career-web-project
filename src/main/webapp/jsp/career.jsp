@@ -69,7 +69,7 @@
                     <td><c:out value="${jobdetails.jobName}" /></td>
                     <td><c:out value="${jobdetails.exp}" /></td>
                     <td><c:out value="${jobdetails.description}" /></td>
-                    <td><a href="details">APPLY</a></td>
+                    <td><a href="success">APPLY</a></td>
         </tr>
         </c:forEach>
    </tbody>
