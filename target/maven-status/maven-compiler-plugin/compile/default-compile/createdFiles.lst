@@ -1,0 +1,12 @@
+com\career\spring\controller\RegisterController.class
+com\career\spring\dao\LoginDaoImpl.class
+com\career\spring\model\Login.class
+com\career\spring\model\Applicantprofessionaldetails.class
+com\career\spring\services\LoginService.class
+com\career\spring\dao\LoginMapper.class
+com\career\spring\controller\LoginController.class
+com\career\spring\model\Applicantpersonaldetails.class
+com\career\spring\model\Applications.class
+com\career\spring\model\Jobdetails.class
+com\career\spring\dao\LoginDao.class
+com\career\spring\services\LoginServiceImpl.class
