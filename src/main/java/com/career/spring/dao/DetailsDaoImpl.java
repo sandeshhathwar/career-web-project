@@ -1,5 +1,6 @@
 package com.career.spring.dao;
 
+import java.math.BigInteger;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
@@ -38,7 +39,7 @@ public class DetailsDaoImpl implements DetailsDao {
 			user.setFirstName(rs.getString("firstName"));
 			user.setMiddleName(rs.getString("middleName"));
 			user.setLastName(rs.getString("lastName"));
-			user.setMobile(rs.getInt("mobile"));
+			user.setMobile(rs.getString("mobile"));
 			user.setEmail(rs.getString("email"));
 			user.setAddress(rs.getString("address"));
 			user.setHighestQualification(rs.getString("highestQualification"));

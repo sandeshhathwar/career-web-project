@@ -1,10 +1,12 @@
 package com.career.spring.model;
 
+import java.math.BigInteger;
+
 public class Detailsdb {
 	private String firstName;
 	private String middleName;
 	private String lastName;
-	private int mobile;
+	private String mobile;
 	private String email;
 	private String address;
 	private String highestQualification;
@@ -34,10 +36,10 @@ public class Detailsdb {
 	public void setLastName(String lastName) {
 		this.lastName = lastName;
 	}
-	public int getMobile() {
+	public String getMobile() {
 		return mobile;
 	}
-	public void setMobile(int mobile) {
+	public void setMobile(String mobile) {
 		this.mobile = mobile;
 	}
 	public String getEmail() {
